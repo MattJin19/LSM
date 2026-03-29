@@ -1,6 +1,3 @@
-# LSM
-Local Shape Marking
-
 # Local Shape Marking: Restore Lost Amplitude in Smoothed Statistical Measures for Time Series Data
 
 
