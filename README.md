@@ -5,7 +5,8 @@
 Yuanzhe Jin, Ryan Turlip, Richard Chung, Jang Yoon
 
 ## Overview
-
+Smartphones collect long-term, densely sampled time-series data that are increasingly used to monitor postoperative recovery. To reveal overall trends and enable comparison across patients, such data are typically smoothed. However, smoothing often suppresses subtle yet clinically meaningful local variations, such as small but persistent deviations that may indicate early improvement or delayed recovery. 
+We present a conditionally selective visual encoding method, Local Shape Marking(LSM), that selectively visualizes smoothed local extrema. The method maintains visual continuity and reduces perceptual interference in dense longitudinal signals. We evaluate it using real-world smartphone-collected data from spine surgery patients and publicly available time-series datasets. Results show that the method reveals subtle temporal patterns that remain visually indistinguishable under conventional smoothing-based visualizations, demonstrating its applicability for longitudinal time-series analysis across domains.
 
 ## Installation
 Python ≥ 3.8  
@@ -19,7 +20,7 @@ The code is friendly with web browsers.
 
 ## License
 
-PathwayVis code released under the MIT License. See [LICENSE](LICENSE) for additional details.
+Local Shape Marking code released under the MIT License. See [LICENSE](LICENSE) for additional details.
 
 ## Citing LSM ٩(๑>◡<๑)۶
 
